@@ -16,6 +16,13 @@ git clone https://github.com/ChetanXpro/subdomain-bruteforce.git
 cd subdomain-bruteforce
 ```
 
+2. Make the subdomain_finder.sh script executable:
+
+```bash
+chmod +x brute.sh
+
+```
+
 2. Run the script with the domain you want to check:
 
 ```bash
