@@ -6,6 +6,7 @@ A simple bash script for finding subdomains through brute force. This script rea
 
 - Linux or macOS
 - Bash shell
+- For windows use  git bash or wsl
 
 ## Usage
 
