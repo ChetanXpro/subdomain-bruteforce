@@ -25,5 +25,9 @@ cd subdomain-bruteforce
 
 The script will check each subdomain from the list and print the ones that exist for the specified domain.
 
+### License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 
