@@ -1,41 +1,40 @@
-# Subdomain bruteforce
+# Subdomain Bruteforce
 
-A simple bash script for finding subdomains through brute force. This script reads a list of subdomains from a file and checks if they exist for the specified domain.
+A simple bash script for discovering subdomains through brute force. This script reads a list of subdomains from a file and checks if they exist for the specified domain.
 
 ## Prerequisites
 
 - Linux or macOS
 - Bash shell
-- For windows use  git bash or wsl
+- For Windows users, you can use Git Bash or Windows Subsystem for Linux (WSL) for compatibility.
 
-## Usage
+## Getting Started
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/ChetanXpro/subdomain-bruteforce.git
-cd subdomain-bruteforce
-```
+    ```bash
+    git clone https://github.com/ChetanXpro/subdomain-bruteforce.git
+    cd subdomain-bruteforce
+    ```
 
-2. Make the subdomain_finder.sh script executable:
+2. Make the `brute.sh` and `run_parallel.sh`  script executable:
 
-```bash
-chmod +x brute.sh
+    ```bash
+    chmod +x brute.sh run_parallel.sh
+    ```
 
-```
+3. To run the script use the `run_parallel.sh` script:
 
-2. Run the script with the domain you want to check:
+    ```bash
+    ./run_parallel.sh example.com
+    ```
 
-```bash
-./brute.sh example.com
+The `run_parallel.sh` script is designed to execute the `brute.sh` script in parallel, allowing for more efficient subdomain discovery.
 
-```
+## License
 
-The script will check each subdomain from the list and print the ones that exist for the specified domain.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### License
+---
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-
+**Note**: Always ensure that you have the necessary permissions to perform subdomain discovery for a domain. Unauthorized or malicious usage of this tool may be a violation of applicable laws or terms of service.
